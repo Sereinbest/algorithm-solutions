@@ -1,0 +1,30 @@
+# 编译产物
+*.exe
+*.out
+*.o
+*.obj
+*.ilk
+*.pdb
+*.gch
+a.out
+
+# 构建目录
+build/
+cmake-build-*/
+out/
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.user
+*.suo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时测试文件
+temp.*
+test.*
+!tests/
